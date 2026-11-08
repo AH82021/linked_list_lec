@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,6 +59,7 @@ public class Main {
         languages.add("Python");
         languages.add("JavaScript");
         languages.add("C");
+        languages.add("Java");
 
         System.out.println(languages);
         languages.set(3,"Kotlin");
@@ -66,7 +68,9 @@ public class Main {
 
         // ArrayList vs LinkedList
         // [single value]: store 3 values (prev address, data, next address )
-        //
+        // Stack -> Vector -> List
+        // Set <>
+
 
 
     }
